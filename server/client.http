@@ -16,3 +16,13 @@ GET {{baseUrl}}/pending-goals
 Content-Type: application/json
 
 ###
+
+# @name create_goal_completion
+POST {{baseUrl}}/completions
+Content-Type: application/json
+
+{
+    "goalId": "ph7ottbcld5io6bqwgnpcwbz"
+}
+
+###
