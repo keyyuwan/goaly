@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3333
+
+# @name create_goal
+POST {{baseUrl}}/goals
+Content-Type: application/json
+
+{
+    "title": "Ler 10 páginas de um livro",
+    "desiredWeeklyFrequency": 3
+}
+
+###
