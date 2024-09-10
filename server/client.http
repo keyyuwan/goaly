@@ -10,3 +10,9 @@ Content-Type: application/json
 }
 
 ###
+
+# @name get_week_pending_goals
+GET {{baseUrl}}/pending-goals
+Content-Type: application/json
+
+###
