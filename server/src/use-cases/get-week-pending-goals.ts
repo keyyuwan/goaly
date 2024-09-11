@@ -42,6 +42,7 @@ export async function getWeekPendingGoals() {
       title: goalsCreatedUpToWeek.title,
       desiredWeeklyFrequency: goalsCreatedUpToWeek.desiredWeeklyFrequency,
       completionCount: sql /*sql*/`
+      --  COALESCE: Como se fosse o if do JS, pega um valor, se não existir, pega o outro
         COALESCE(${goalCompletionCounts.completionCount}, 0)
       `.mapWith(Number),
     })
