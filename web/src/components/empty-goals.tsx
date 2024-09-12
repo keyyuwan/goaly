@@ -1,5 +1,5 @@
 import { LogoGoaly } from "../components/logo-goaly";
-import letsStart from "./assets/lets-start-illustration.svg";
+import letsStart from "../assets/lets-start-illustration.svg";
 import { Plus } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { DialogTrigger } from "../components/ui/dialog";
